@@ -1,0 +1,18 @@
+
+
+.contaner {
+    width: 1440px;
+}
+
+.container img {
+    border-radius: 8px;
+}
+
+h1 {
+    font-family: 'Outfit', sans-serif;
+}
+
+p {
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif ;
+}
