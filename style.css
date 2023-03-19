@@ -1,5 +1,9 @@
 
-
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 .contaner {
     width: 1440px;
 }
