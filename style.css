@@ -16,26 +16,30 @@ body {
 .container {
     /* width: 1440px; */
     padding: 10px;
-    border-radius: 12px;
+    border-radius: 14px;
     background-color: hsl(0, 0%, 100%);
 }
 
 .container img {
-    border-radius: 12px;
+    border-radius: 14px;
 }
 
 .container-image img{
-    width: 400px;
-    margin: 0 auto;
+    width: 250px;
 }
 
 h1 {
     font-family: 'Outfit', sans-serif;
     text-align: center;
+    font-size: 22px;
+    margin: 12px 0;
+    color: hsl(218, 44%, 22%);
 }
 
 p {
-    font-size: 15px;
+    font-size: 14px;
     font-family: 'Outfit', sans-serif ;
     text-align: center;
+    margin: 0 0 10px;
+    color: hsl(218, 44%, 22%);
 }
