@@ -4,19 +4,38 @@
     margin: 0;
     box-sizing: border-box;
 }
-.contaner {
-    width: 1440px;
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  hsl(212, 45%, 89%);
+    min-height: 100vh;
+}
+
+.container {
+    /* width: 1440px; */
+    padding: 10px;
+    border-radius: 12px;
+    background-color: hsl(0, 0%, 100%);
 }
 
 .container img {
-    border-radius: 8px;
+    border-radius: 12px;
+}
+
+.container-image img{
+    width: 400px;
+    margin: 0 auto;
 }
 
 h1 {
     font-family: 'Outfit', sans-serif;
+    text-align: center;
 }
 
 p {
     font-size: 15px;
     font-family: 'Outfit', sans-serif ;
+    text-align: center;
 }
